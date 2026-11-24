@@ -24,7 +24,8 @@ def main():
         pg.display.update()
         tmr += 1        
         clock.tick(200)
-
+        screen.blit(bg_img,[-x, 0])
+        screen.blit(bg_img,[-x+1600, 0])
 
 if __name__ == "__main__":
     pg.init()
